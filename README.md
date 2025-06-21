@@ -95,20 +95,20 @@ npm run lint: Run ESLint
 
 npm run test: Run Jest tests
 
-##Deployment
-1.Vercel:
+#Deployment
+##1.Vercel:
 
-Connect your GitHub repository
+###Connect your GitHub repository
 
-Set environment variables
+###Set environment variables
 
-Enable ISR (Incremental Static Regeneration)
+###Enable ISR (Incremental Static Regeneration)
 
-2.Contentful:
+##2.Contentful:
 
-Deploy the app extension
+###Deploy the app extension
 
-Configure the fullscreen interface
+###Configure the fullscreen interface
 
 ##Content Model Notes
 The layoutConfig field stores JSON in this format:
@@ -131,15 +131,15 @@ json
 
 ##Supported block types:
 
-hero: Full-width hero section
+###hero: Full-width hero section
 
-twoColumn: Text + image layout
+###twoColumn: Text + image layout
 
-imageGrid: 2x2 image gallery
+###imageGrid: 2x2 image gallery
 
 ##Troubleshooting
-Contentful API errors: Verify your space ID and access tokens
+###Contentful API errors: Verify your space ID and access tokens
 
-GraphQL issues: Test queries in the Contentful GraphQL playground
+###GraphQL issues: Test queries in the Contentful GraphQL playground
 
-Missing content types: Double-check the content model setup
+###Missing content types: Double-check the content model setup
