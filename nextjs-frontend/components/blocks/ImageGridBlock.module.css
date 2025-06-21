@@ -1,0 +1,29 @@
+.gridSection {
+  padding: var(--space-xl) 0;
+}
+
+.gridContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: var(--space-md);
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 var(--space-md);
+}
+
+.gridItem {
+  position: relative;
+  aspect-ratio: 1;
+  overflow: hidden;
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow);
+}
+
+.gridImage {
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.gridImage:hover {
+  transform: scale(1.05);
+}
